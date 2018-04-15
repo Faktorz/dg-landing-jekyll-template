@@ -1,0 +1,68 @@
+---
+pages:
+- _staff_members/tom.md
+- _staff_members/robin.md
+- _staff_members/james.md
+- _staff_members/gerald.md
+- _staff_members/betty.md
+- _staff_members/anna.md
+hide_body: false
+is_partial: false
+fields:
+- name: name
+  label: Name
+  type: text
+  hidden: false
+  default: ''
+- name: position
+  label: Position
+  type: text
+  hidden: false
+  default: ''
+- name: image_path
+  label: Image path
+  type: text
+  hidden: false
+  default: ''
+- name: twitter
+  label: Twitter
+  type: text
+  hidden: false
+  default: ''
+- name: blurb
+  label: Blurb
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: page
+- name: _options
+  label: " options"
+  type: field_group
+  fields:
+  - name: image_path
+    label: Image path
+    type: field_group
+    fields:
+    - name: width
+      label: Width
+      type: text
+      hidden: false
+      default: ''
+    - name: height
+      label: Height
+      type: text
+      hidden: false
+      default: ''
+    hidden: false
+    default: ''
+  hidden: false
+  default: 

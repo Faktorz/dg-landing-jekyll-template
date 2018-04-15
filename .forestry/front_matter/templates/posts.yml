@@ -1,0 +1,57 @@
+---
+pages:
+- _posts/2016-08-12-the-history-of-marketing.md
+- _posts/2016-08-06-definition-of-sales.md
+- _posts/2016-08-02-sales-effectiveness.md
+- _posts/2016-07-28-effective-upselling-techniques.md
+- _posts/2016-07-20-the-process-for-direct-sales.md
+hide_body: false
+is_partial: false
+fields:
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: categories
+  label: Categories
+  type: tag_list
+  hidden: false
+  default: ''
+- name: author_staff_member
+  label: Author staff member
+  type: text
+  hidden: false
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: post
+- name: _options
+  label: " options"
+  type: field_group
+  fields:
+  - name: content
+    label: Content
+    type: field_group
+    fields:
+    - name: width
+      label: Width
+      type: text
+      hidden: false
+      default: ''
+    - name: height
+      label: Height
+      type: text
+      hidden: false
+      default: ''
+    hidden: false
+    default: ''
+  hidden: false
+  default: 
