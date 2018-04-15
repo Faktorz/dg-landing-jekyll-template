@@ -1,13 +1,17 @@
+- name: Why The Digital Garage
+  link: /
+  new_window: true
+  highlight: true
+- name: How It Works
+  link: /
+  new_window: true
+  highlight: true
 - name: Pricing
   link: /pricing/
   new_window: false
   highlight: false
 - name: Blog
   link: /blog/
-  new_window: false
-  highlight: false
-- name: About
-  link: /about/
   new_window: false
   highlight: false
 - name: Contact
