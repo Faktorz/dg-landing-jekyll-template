@@ -9,7 +9,7 @@
 		{% feed_meta %}
 
 		<link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
-		<link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon.png">
+		<link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon.ico">
 		<link href="https://fonts.googleapis.com/css?family=Alegreya|Alegreya+Sans|Merriweather|Merriweather+Sans|Nunito|Nunito+Sans|Quattrocento|Quattrocento+Sans|Roboto|Roboto+Mono|Roboto+Slab" rel="stylesheet">
 
 		{% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
@@ -23,8 +23,8 @@
 	</head>
 	<body>
 		<header>
-			<div class="container">
-				<div class="company-name"><a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/reverse-logo.svg" style="fill: #fff;" alt="The Digital Garage Logo" width="95" height="33" /></a></div>
+			<div class="container" style="background-color:#757575">
+				<div class="company-name"><a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/white-logo.svg" style="fill: #fff;" alt="The Digital Garage Logo" width="95" height="33" /></a></div>
 				{% include navigation.html %}
 			</div>
 		</header>
