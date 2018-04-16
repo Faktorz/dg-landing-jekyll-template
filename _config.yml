@@ -28,7 +28,9 @@ timezone: Etc/UTC
 collections:
   staff_members:
     _hide_content: true
-
+sass:
+    sass_dir: _sass
+    
 paginate: 10
 paginate_path: "/blog/:num/"
 permalink: pretty
