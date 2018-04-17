@@ -12,8 +12,8 @@
   new_window: false
   highlight: false
 - name: Blog
-  link: "/blog/"
-  new_window: false
+  link: https://medium.com/thedigitalgarage
+  new_window: true
   highlight: false
 - name: Knowledgebase
   link: http://docs.thedigitalgarage.io
