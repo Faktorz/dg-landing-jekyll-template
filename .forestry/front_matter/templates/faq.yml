@@ -6,6 +6,7 @@ fields:
   config:
     source:
       type: datafiles
+      file: _data-categories-yml
     required: true
   label: Category
   name: category
