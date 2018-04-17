@@ -5,9 +5,13 @@ fields:
 - type: select
   config:
     source:
-      type: datafiles
+      type: simple
       file: _data-categories-yml
     required: true
+    options:
+    - Pricing
+    - Product
+    - Support
   label: Category
   name: category
   description: Select the Category for the FAQ
