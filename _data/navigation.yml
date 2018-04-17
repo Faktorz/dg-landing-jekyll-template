@@ -1,28 +1,29 @@
+---
 - name: Why The Digital Garage
-  link: /
+  link: "/"
   new_window: false
   highlight: false
 - name: How It Works
-  link: /
+  link: "/"
   new_window: false
   highlight: false
 - name: Pricing
-  link: /pricing/
+  link: "/pricing/"
   new_window: false
   highlight: false
 - name: Blog
-  link: /blog/
+  link: "/blog/"
   new_window: false
   highlight: false
-- name: Contact
-  link: /contact/
+- name: Knowledgebase
+  link: http://docs.thedigitalgarage.io
   new_window: false
   highlight: false
 - name: Login
-  link: /
+  link: "/"
   new_window: true
   highlight: false
 - name: Sign Up
-  link: /
+  link: "/"
   new_window: true
   highlight: true
