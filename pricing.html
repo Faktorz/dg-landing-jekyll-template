@@ -1,71 +1,98 @@
 ---
 title: Pricing
-heading: Find the perfect plan for your business
-description: All plans include our award winning sales optimization solution to track your sales in real time.
+heading: Find the perfect plan for your team.
+description: Plans and Pricing - The Digital Garage
 pricing_table:
-  - name: Basic
-    color: "#8e8e8e"
-    features:
-      - text: $25 per month
-        highlight: true
-      - text: Up to 5 users
-        highlight: false
-      - text: Basic lead scoring
-        highlight: false
-      - text: CRM
-        highlight: false
-      - text: Basic reporting
-        highlight: false
-      - text: Sales map
-        highlight: false
-    call_to_action:
-      link: http://mysite.com?plan=basic
-      text: Get started
-  - name: Pro
-    color: "#4a4a4a"
-    features:
-      - text: $99 per month
-        highlight: true
-      - text: Everything in Basic
-        highlight: false
-      - text: Up to 25 users
-        highlight: false
-      - text: Advanced lead scoring
-        highlight: false
-      - text: Pipeline management
-        highlight: false
-      - text: Advanced reporting
-        highlight: false
-    call_to_action:
-      link: http://mysite.com?plan=pro
-      text: Get started
-  - name: Professional
-    color: "#000000"
-    features:
-      - text: $299 per month
-        highlight: true
-      - text: Everything in Basic and Pro
-        highlight: false
-      - text: Up to 100 users
-        highlight: false
-      - text: Campaign builder
-        highlight: false
-      - text: Machine learning
-        highlight: false
-      - text: Calendar
-        highlight: false
-    call_to_action:
-      link: http://mysite.com?plan=professional
-      text: Get started
+- name: Core
+  color: "#8e8e8e"
+  features:
+  - text: Great for individual developers and small development teams learning containers.
+    highlight: ''
+  - text: FREE
+    highlight: true
+  - text: 1 Project/Workspace Limit
+    highlight: false
+  - text: 1GiB Memory Included
+    highlight: false
+  - text: 1GiB Storage Included
+    highlight: false
+  - text: Always On
+    highlight: ''
+  - text: Invite Unlimited Team Members to Project
+    highlight: ''
+  - text: Supports Custom Domains
+    highlight: ''
+  - text: Knowledge Base Support
+    highlight: false
+  call_to_action:
+    link: https://cochera.thedigitalgarage.io/free-signup
+    text: Sign Up for Free
+- name: Professional
+  color: "#4a4a4a"
+  features:
+  - text: Great for small dev teams and startups on a shoestring budget
+    highlight: true
+  - text: Starts at $50.00/mo
+    highlight: ''
+  - text: 5GiB Memory Included
+    highlight: false
+  - text: 2GiB Storage Included
+    highlight: false
+  - text: Always On, Unlimited Usage
+    highlight: false
+  - text: Invite Unlimited Team Members to Projects
+    highlight: false
+  - text: Supports Custom Domains
+    highlight: ''
+  - text: Email & Knowledge Base Support
+    highlight: false
+  call_to_action:
+    link: http://mysite.com?plan=pro
+    text: Get started
+- name: Enterprise
+  color: "#000000"
+  features:
+  - text: Great for small development teams with several container based applications.
+    highlight: true
+  - text: Usage-based Pricing - Contact us for Details
+    highlight: false
+  - text: Unlimited Memory
+    highlight: false
+  - text: Unlimited Storage
+    highlight: false
+  - text: Unlimited Team Members
+    highlight: false
+  - text: Enterprise-level Support
+    highlight: false
+  call_to_action:
+    link: mailto:info@thedigitalgarage.io?subject=Enterprise Plan
+    text: Contact Us to Get Started
 faq:
-  - question: What types of payment do you accept?
-    answer: Credit cards including MasterCard, Visa or American Express.
-  - question: Can I change my plan at a later time?
-    answer: Yes, you can upgrade and downgrade your plan at anytime.
-  - question: Do you offer pricing for nonprofit organizations?
-    answer: Yes, send us a message and we'll set you up on our nonprofit pricing.
-  - question: Questions?
-    answer: Contact us for any further questions at <a href="#">john@business.com</a>.
+- question: Can I upgrade from the starter plan to the pro plan?
+  answer: Yes.
+- question: Can users run images from docker hub or push their own images to the registry?
+  answer: Yes, but with a few caveats. For security reasons, no images that run processes
+    as root are allowed. Additionally, any Dockerfile VOLUME instruction must be mounted
+    with either a persistent volume claim (PVC) or an EmptyDir at this time.
+- question: What databases are supported?
+  answer: The Digital Garage currently supports MariaDB (10.1), MongoDB (2.6, 3.2),
+    MySQL (5.6, 5.7), PostgreSQL (9.4, 9.5), and Redis (3.2).
+- question: Can I Run Production Applications on The Digital Garage?
+  answer: 'Yes. The Digital Garage does not limit your applications to development
+    workloads. Please read the Service Level Agreement carefully to determine if The
+    Digital Garage, Inc. Service Level Agreement is sufficient for your production
+    application. Please contact us for a Production Service Level Agreement if our
+    standard agreement does not fit your needs. '
+- question: What languages and datastores are supported?
+  answer: The Digital Garage currently supports Java (8), .NET Core (1.0, 1.1, 2.0),
+    Node.js (4, 6), Python (2.7, 3.4, 3.5), Ruby (2.2, 2.3, 2.4), and Perl (5.20,
+    5.24). Jenkins (2.x), Prometheus and Jeager are also available for CI/CD. Supported
+    Quickstart application templates are available for Apache HTTP Server, NGINX,
+    Django, Node.js, and Ruby on Rails.
+- question: Can I change my plan at a later time?
+  answer: Yes, you can upgrade and downgrade your plan at anytime.
+- question: Questions?
+  answer: Contact us for any further questions at <a href="#">john@business.com</a>.
 ---
 <div class="plans">
 	{% for plan in page.pricing_table %}
