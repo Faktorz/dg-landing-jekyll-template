@@ -1,0 +1,27 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- type: select
+  config:
+    source:
+      type: datafiles
+    required: true
+  label: Category
+  name: category
+  description: Select the Category for the FAQ
+- type: text
+  label: Question
+  name: question
+  description: The frequently asked question
+  config:
+    required: true
+- type: textarea
+  label: Answer
+  name: answer
+  description: Provide the answer from The Digital Garage
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
