@@ -17,7 +17,7 @@
   highlight: false
 - name: Knowledgebase
   link: http://docs.thedigitalgarage.io
-  new_window: false
+  new_window: true
   highlight: false
 - name: Login
   link: "/"
