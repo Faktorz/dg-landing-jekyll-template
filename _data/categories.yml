@@ -1,7 +1,4 @@
 ---
-- categories:
-  - name: Pricing
-  - name: Product
-  - name: Support
-
-  
+- name: Pricing
+- name: Product
+- name: Support
