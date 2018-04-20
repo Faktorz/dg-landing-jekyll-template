@@ -10,13 +10,9 @@ $color_apple_approx: #4dbe3b;
 $color_dodger_blue_approx: #2288f9;
 
 //fonts
-$font_0: Montserrat;
+$font_0: Roboto;
 $font_1: sans-serif;
 
-//urls
-$url_0: url(https://fonts.googleapis.com/css?family=Montserrat);
-
-@import $url_0;
 .pricing-table {
 	background-color: $color_gallery_approx;
 	font-family: $font_0, $font_1;
