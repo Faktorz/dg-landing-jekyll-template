@@ -52,7 +52,7 @@ ul, li {
       text-transform: uppercase;
       font-weight: 600;
       color: $dull-blue;
-      @include box-shadow(inset 0 -2px 3px rgba(0, 0, 0, .15), inset 0 2px 3px rgba(0, 0, 0, .15));
+      //@include box-shadow(inset 0 -2px 3px rgba(0, 0, 0, .15), inset 0 2px 3px rgba(0, 0, 0, .15));
       margin-top: auto;
     }
     &:hover {
@@ -70,7 +70,7 @@ ul, li {
       }
       .plan-price {
         background: saturate($red, 55%);
-        @include box-shadow(inset 0 -4px 3px rgba(0, 0, 0, .15), inset 0 4px 3px rgba(0, 0, 0, .15));
+        //@include box-shadow(inset 0 -4px 3px rgba(0, 0, 0, .15), inset 0 4px 3px rgba(0, 0, 0, .15));
         text-align: center;
       }
       .more-options {
