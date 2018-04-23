@@ -2,16 +2,44 @@
 
 <html lang="en">
 	<head>
-		<meta charset="utf-8">
+		<!--Meta-->
+		<meta charset="UTF-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		{% seo %}
 		{% feed_meta %}
 
-		<link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
+		<!--Favicon-->
 		<link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon.ico">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-		<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Open+Sans|Oswald|Raleway|Roboto:300" rel="stylesheet">
+
+		<!--Google fonts-->
+		<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Dosis|Open+Sans|Oswald|Raleway|Roboto" rel="stylesheet">
+
+		<!--Icon fonts
+		<link rel="stylesheet" href="{{ site.baseurl }}/css/strokegap_style.css">
+		<link rel="stylesheet" href="{{ site.baseurl }}/css/linearicons_style.css">
+		-->
+
+		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-KwxQKNj2D0XKEW5O/Y6haRH39PE/xry8SAoLbpbCMraqlX7kUP6KHOnrlrtvuJLR" crossorigin="anonymous">
+
+		<!-- Stylesheet-->
+		<!--
+		// ////////////////////////////////////////////////
+		// To Reduce server request and improved page speed drastically all third-party plugin bundle in assets/css/bundle.css
+		// If you wanna add those manually bellow is the sequence
+		// ///////////////////////////////////////////////
+		-->
+		<!--
+		<link rel="stylesheet" href="assets/vendor/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/vendor/slick-carousel/slick/slick.css">
+		<link rel="stylesheet" href="assets/vendor/fancybox/dist/jquery.fancybox.min.css">
+		<link rel="stylesheet" href="assets/vendor/animate.css/animate.min.css">
+	  -->
+
+		<link rel="stylesheet" href="{{ site.baseurl }}/css/bundle.css">
+		<link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
+		<link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
 
 		{% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
 			<script>
