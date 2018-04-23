@@ -51,9 +51,17 @@
 		{% endif %}
 	</head>
 	<body>
-		<header>
+		<header class="header header-shrink header-inverse fixed-top">
 			<div class="container">
-				<div class="company-name"><a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/white-logo.svg" alt="The Digital Garage Logo" width="240" height="80" /></a></div>
+				<a class="navbar-brand" href="index.html">
+					<span class="logo-default">
+						<img src="assets/img/logo-default.png" alt="">
+					</span>
+					<span class="logo-inverse">
+						<img src="assets/img/logo-inverse.png" alt="">
+					</span>
+				</a>
+				<div class="navbar navbar-expand-lg px-md-0"><a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/white-logo.svg" alt="The Digital Garage Logo" width="240" height="80" /></a></div>
 				{% include navigation.html %}
 			</div>
 		</header>
