@@ -4,7 +4,7 @@
   new_window: false
   highlight: false
 - name: How It Works
-  link: "/faq/"
+  link: "/how-works/"
   new_window: true
   highlight: false
 - name: Pricing
