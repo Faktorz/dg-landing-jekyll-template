@@ -370,9 +370,6 @@ input, textarea {
 .navbar-nav > .nav-item {
   margin-left: 15px; }
   .navbar-nav > .nav-item > .nav-link {
-    text-transform: uppercase;
-    font-family: "Dosis", sans-serif;
-    font-weight: 600;
     font-size: 16px; }
 
 .navbar-toggler {
