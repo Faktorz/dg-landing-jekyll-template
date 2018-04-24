@@ -600,9 +600,10 @@ input, textarea {
 .btn-outline-white {
   background-color: transparent;
   background-image: none;
-  border-color: #597187; }
+  border-color: #FFFFFF; }
   .btn-outline-white:hover {
-    background: #455768;
+    background: #212121;
+    border-color: #212121;
     color: #fff !important; }
 
 .btn-pulple-light {
