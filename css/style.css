@@ -2,7 +2,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
   line-height: 1.875em;
-  color: #5a6671;
+  color: #212121;
   font-weight: 400;
   overflow-x: hidden; }
 
@@ -14,7 +14,7 @@ img {
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "Open Sans", sans-serif;
-  color: #273f5b;
+  color: #FFFFFF;
   line-height: 1.37em;
   font-weight: 600; }
 
@@ -582,7 +582,8 @@ input, textarea {
   border-radius: 100em; }
 
 .btn-primary {
-  background: #0081FF;
+  background: #448AFF;
+  border-color: #448AFF;
   -webkit-box-shadow: 0 5px 40px 0 rgba(0, 129, 255, 0.3);
   box-shadow: 0 5px 40px 0 rgba(0, 129, 255, 0.3);
   color: #fff; }
