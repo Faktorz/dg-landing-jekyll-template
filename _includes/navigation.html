@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg px-md-0">
 	<a class="navbar-brand" href="{{ site.baseurl }}/">
 		<span class="logo-default">
-			<img src="{{ site.baseurl }}/images/logo-REV-01.svg" alt="The Digital Garage Logo">
+			<img src="{{ site.baseurl }}/images/logo-Rev-01.svg" alt="The Digital Garage Logo">
 		</span>
 		<span class="logo-inverse">
 			<img src="{{ site.baseurl }}/images/logo.svg" alt="The Digital Garage Logo">
@@ -18,16 +18,21 @@
 	<div class="collapse navbar-collapse" id="navbarNav">
 		<ul class="navbar-nav ml-auto">
 			{% for link in site.data.navigation %}
-				{% assign class = "" %}
-				{% if link.highlight %}
-					{% assign class = class | append: " highlight" %}
-				{% endif %}
+			<li class="nav-item">
+				{% assign class = "nav-link" %}
 
 				{% if link.link == page.url %}
 					{% assign class = class | append: " active" %}
 				{% endif %}
 				<a href="{% include relative-src.html src=link.link %}" class="{{ class }}" {% if link.new_window %}target="_blank"{% endif %}>{{ link.name }}</a>
+			</li>
 			{% endfor %}
+			<li class="nav-item">
+            <a class="nav-link btn btn-sm btn-white u-w-110" href="login.html">Login</a>
+      </li>
+			<li class="nav-item">
+            <a class="nav-link btn btn-sm btn-white u-w-110" href="sign-up.html">Register</a>
+      </li>
 		</ul>
 	</div>
 

@@ -161,8 +161,6 @@ input, textarea {
   background-color: transparent; }
 
 .typed-curcor {
-  -webkit-animation-name: blinker;
-  animation-name: blinker;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
   -webkit-animation-timing-function: cubic-bezier(1, 0, 0, 1);
