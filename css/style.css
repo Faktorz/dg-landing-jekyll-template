@@ -486,7 +486,7 @@ input, textarea {
   .is-scrolling .header-inverse .nav-link {
     color: #212121; }
 
-.is-scrolling .header-inverse .nav-link.btn.btn-sm.btn-outline-white.u-w-110 {
+.is-scrolling .header-inverse .btn-outline-white.u-w-110 {
     border-color: #212121; }
 
 .is-scrolling .header-shrink {
@@ -581,9 +581,9 @@ input, textarea {
   -o-transition: .3s;
   transition: .3s;
   text-transform: capitalize;
-  font-family: "Dosis", sans-serif;
-  font-weight: 600;
-  font-size: 18px !important;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px !important;
   padding: 0.8125rem 2rem; }
   .btn:focus {
     -webkit-box-shadow: none;
