@@ -359,7 +359,8 @@ input, textarea {
   width: 200px; }
 
 .logo-inverse {
-  position: absolute;
+  position: relative;
+  width: -webkit-fill-available;
   top: 0;
   left: 0;
   opacity: 0;
@@ -370,7 +371,8 @@ input, textarea {
   padding-bottom: .3125rem; }
 
 .logo-default {
-  position: absolute;
+  position: relative;
+  width: -webkit-fill-available;
   top: 0;
   left: 0;
   -webkit-transition: .3s;
@@ -485,6 +487,10 @@ input, textarea {
   background: #fff; }
   .is-scrolling .header-inverse .nav-link {
     color: #212121; }
+
+.is-scrolling .header-inverse .btn-outline-white {
+  border-color: #212121;
+}
 
 .is-scrolling .header-shrink {
   padding-top: 10px;
