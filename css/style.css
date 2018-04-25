@@ -355,11 +355,11 @@ input, textarea {
   transition: .3s; }
 
 .navbar-brand {
-  position: relative; }
+  position: absolute;
+  width: 200px; }
 
 .logo-inverse {
   position: absolute;
-  width: -webkit-fill-available;
   top: 0;
   left: 0;
   opacity: 0;
@@ -371,7 +371,6 @@ input, textarea {
 
 .logo-default {
   position: absolute;
-  width: -webkit-fill-available;
   top: 0;
   left: 0;
   -webkit-transition: .3s;
@@ -485,7 +484,10 @@ input, textarea {
 .is-scrolling .header-inverse {
   background: #fff; }
   .is-scrolling .header-inverse .nav-link {
-    color: #54667a; }
+    color: #212121; }
+  .is-scrolling .header-inverse .button-outline-white {
+    border-color: #212121;
+  }
 
 .is-scrolling .header-shrink {
   padding-top: 10px;
