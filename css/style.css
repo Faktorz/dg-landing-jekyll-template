@@ -486,9 +486,6 @@ input, textarea {
   .is-scrolling .header-inverse .nav-link {
     color: #212121; }
 
-.is-scrolling .header-inverse .btn-outline-white.u-w-110 {
-    border-color: #212121; }
-
 .is-scrolling .header-shrink {
   padding-top: 10px;
   padding-bottom: 10px; }
