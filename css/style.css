@@ -367,16 +367,15 @@ input, textarea {
   padding-top: .3125rem;
   padding-bottom: .3125rem; }
 
-  .logo-default {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    -webkit-transition: .3s;
-    -o-transition: .3s;
-    transition: .3s;
-    padding-top: .3125rem;
-    padding-bottom: .3125rem; }
+.logo-default {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem; }
 
 .navbar-nav > .nav-item {
   margin-left: 3px; }
