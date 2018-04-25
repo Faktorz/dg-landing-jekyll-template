@@ -485,9 +485,9 @@ input, textarea {
   background: #fff; }
   .is-scrolling .header-inverse .nav-link {
     color: #212121; }
-  .is-scrolling .header-inverse .button-outline-white {
-    border-color: #212121;
-  }
+
+.is-scrolling .header-inverse .nav-link.btn.btn-sm.btn-outline-white.u-w-110 {
+    border-color: #212121; }
 
 .is-scrolling .header-shrink {
   padding-top: 10px;
