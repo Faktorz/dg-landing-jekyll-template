@@ -1,16 +1,16 @@
 //// Table of content of theme variables
 // Override variable value by copy and paste it into "_customize.scss" and change the value
 
-// Standard Bootstrap brackpoint 
+// Standard Bootstrap brackpoint
 // sm:576px, md:768px, lg:992px, xl:1200px
 
-// mobile 
+// mobile
 $sm:576px;
-// Tablet 
+// Tablet
 $md:768px;
-//desktop  
+//desktop
 $lg:992px;
-//large desktop 
+//large desktop
 $xl:1200px;
 
 $path:"assets/img/";
@@ -18,23 +18,23 @@ $path:"assets/img/";
 
 //Colors
 
-$color-primary:#0081FF;
-$color-seondary:#8C47E2;
+$color-primary:#3E78B2;
+$color-seondary:#FF9900;
 $white:#fff;
 $black:#000;
 
 $theming:(
-  white:( color:#fff, inverse:#5a6671),
+  white:( color:#fff, inverse:#1C2541),
   black:( color:#111, inverse:#fff ),
-  blue:( color:#0081FF, inverse:#fff ),
+  blue:( color:#124E78, inverse:#fff ),
   purple:( color:#8C47E2, inverse:#fff ),
   purple-light:( color:#a282e3, inverse:#fff ),
   yellow:( color:#FFAD00, inverse:#fff ),
-  green:( color:#2CD44A, inverse:#fff ),
+  green:( color:#3EC300, inverse:#fff ),
   red:( color:#F64D62,inverse:#fff ),
-  indigo:( color:#5D51F6, inverse:#fff ),
+  indigo:( color:#3E78B2, inverse:#fff ),
   lime:( color:#c8d046, inverse:#fff )
-); 
+);
 
 $gray:(
   gray-1:#F3F6FB,
@@ -74,10 +74,10 @@ $socialColours:(
 $base-font-size:1rem;
 $base-font-size-mobile:0.875rem;
 $base-line-height: 1.875em;
-$primary-font:'Open Sans', sans-serif;
-$secondary-font:'Dosis', sans-serif;
-$heading-fonts:'Dosis', sans-serif;
-$button-font:'Dosis', sans-serif;
+$primary-font:'Roboto', sans-serif;
+$secondary-font:'Nunito Sans', sans-serif;
+$heading-fonts:'Open Sans', sans-serif;
+$button-font:'Roboto', sans-serif;
 $link-color: $color-primary !default;
 $link-decoration: none !default;
 $link-hover-color: darken($link-color, 15%) !default;
@@ -107,7 +107,7 @@ $font-light:100;
 $border-color:#dfe6ec;
 $rounded:4px;
 
-// Forms input 
+// Forms input
 $input-bg:$white;
 $input-border-color:$base-font-color;
 $input-border-radius:4px;
@@ -128,4 +128,3 @@ $btn-border-color:none;
 $btn-border-radius:100em;
 $btn-padding:0.8125rem 2rem;
 $btn-disabled-opacity:.6;
-
