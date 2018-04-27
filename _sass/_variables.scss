@@ -27,13 +27,14 @@ $theming:(
   white:( color:#fff, inverse:#1C2541),
   black:( color:#111, inverse:#fff ),
   blue:( color:#124E78, inverse:#fff ),
+  blue-light:( color:#3e78b2, inverse:#fff),
+  blue-dark:( color:#1c2541, inverse:#fff),
+  orange:( color:#ff9900, inverse:#fff ),
+  green:( color:#3EC300, inverse:#fff ),
   purple:( color:#8C47E2, inverse:#fff ),
   purple-light:( color:#a282e3, inverse:#fff ),
   yellow:( color:#FFAD00, inverse:#fff ),
-  green:( color:#3EC300, inverse:#fff ),
-  red:( color:#F64D62,inverse:#fff ),
-  indigo:( color:#3E78B2, inverse:#fff ),
-  lime:( color:#c8d046, inverse:#fff )
+  red:( color:#F64D62,inverse:#fff )
 );
 
 $gray:(
