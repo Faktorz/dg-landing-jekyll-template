@@ -18,23 +18,22 @@ $path:"assets/img/";
 
 //Colors
 
-$color-primary:#3E78B2;
-$color-seondary:#FF9900;
+$color-primary:#2364aa;
+$color-seondary:#8C47E2;
 $white:#fff;
 $black:#000;
 
 $theming:(
-  white:( color:#fff, inverse:#1C2541),
+  white:( color:#fff, inverse:#5a6671),
   black:( color:#111, inverse:#fff ),
-  blue:( color:#124E78, inverse:#fff ),
-  blue-light:( color:#3e78b2, inverse:#fff),
-  blue-dark:( color:#1c2541, inverse:#fff),
-  orange:( color:#ff9900, inverse:#fff ),
-  green:( color:#3EC300, inverse:#fff ),
+  blue:( color:#0081FF, inverse:#fff ),
   purple:( color:#8C47E2, inverse:#fff ),
   purple-light:( color:#a282e3, inverse:#fff ),
   yellow:( color:#FFAD00, inverse:#fff ),
-  red:( color:#F64D62,inverse:#fff )
+  green:( color:#2CD44A, inverse:#fff ),
+  red:( color:#F64D62,inverse:#fff ),
+  indigo:( color:#5D51F6, inverse:#fff ),
+  lime:( color:#c8d046, inverse:#fff )
 );
 
 $gray:(
@@ -75,10 +74,10 @@ $socialColours:(
 $base-font-size:1rem;
 $base-font-size-mobile:0.875rem;
 $base-line-height: 1.875em;
-$primary-font:'Roboto', sans-serif;
-$secondary-font:'Nunito Sans', sans-serif;
-$heading-fonts:'Open Sans', sans-serif;
-$button-font:'Roboto', sans-serif;
+$primary-font:'Open Sans', sans-serif;
+$secondary-font:'Dosis', sans-serif;
+$heading-fonts:'Dosis', sans-serif;
+$button-font:'Dosis', sans-serif;
 $link-color: $color-primary !default;
 $link-decoration: none !default;
 $link-hover-color: darken($link-color, 15%) !default;
