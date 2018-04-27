@@ -4,11 +4,11 @@
   new_window: false
   highlight: false
 - name: How It Works
-  link: "/how-works.html"
+  link: "/how-works/"
   new_window: false
   highlight: false
 - name: Pricing
-  link: "/pricing.html"
+  link: "/pricing/"
   new_window: false
   highlight: false
 - name: Blog
