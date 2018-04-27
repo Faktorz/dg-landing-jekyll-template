@@ -1,7 +1,7 @@
 ---
 pages:
-- faq.html
 - index.html
+- faq.html
 hide_body: false
 is_partial: false
 fields:
