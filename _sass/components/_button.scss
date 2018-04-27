@@ -31,13 +31,13 @@
   color: #597187 !important;
   &:hover{
     background: darken(#597187, 10%);
-    color: #fff !important;
+    color: $white !important;
   }
 }
 .btn-outline-white {
 	background-color: transparent;
 	background-image: none;
-	border-color: #597187;
+	border-color: $white;
   &:hover{
     background: darken(#597187, 10%);
     color: #fff !important;
@@ -46,11 +46,11 @@
 
 .btn-pulple-light {
 	background: #a282e3;
-	color: #fff;
+	color: $white;
 	box-shadow: 0 5px 40px 0 rgba(#A282E3, .40);
 	&:hover {
 		background: darken(#a282e3, 10%);
-		color: #fff;
+		color: $white;
 	}
 }
 .btn-outline-pulple-light{
@@ -58,7 +58,7 @@
 	border-color:#a282e3;
 	&:hover {
 		background: #a282e3;
-		color: #fff;
+		color: $white;
 	}
 }
 
