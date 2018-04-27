@@ -4,11 +4,11 @@
   new_window: false
   highlight: false
 - name: How It Works
-  link: "/how-works/"
-  new_window: true
+  link: "/how-works.html"
+  new_window: false
   highlight: false
 - name: Pricing
-  link: "/pricing/"
+  link: "/pricing.html"
   new_window: false
   highlight: false
 - name: Blog
@@ -18,4 +18,12 @@
 - name: Knowledgebase
   link: http://docs.thedigitalgarage.io
   new_window: true
+  highlight: false
+- name: Login
+  link: "/"
+  new_window: false
+  highlight: false
+- name: Sign Up
+  link: "/"
+  new_window: false
   highlight: false
