@@ -19,11 +19,3 @@
   link: http://docs.thedigitalgarage.io
   new_window: true
   highlight: false
-- name: Login
-  link: "/"
-  new_window: false
-  highlight: false
-- name: Sign Up
-  link: "/"
-  new_window: false
-  highlight: false
