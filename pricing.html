@@ -2,103 +2,10 @@
 title: Pricing
 heading: Find the perfect plan for your team.
 description: Plans and Pricing - The Digital Garage
-pricing_table:
-- name: Core
-  color: "#8e8e8e"
-  features:
-  - text: Great for individual developers and small development teams learning containers.
-    highlight: 'false'
-  - text: FREE
-    highlight: true
-  - text: 1GiB Memory Included
-    highlight: false
-  - text: 1GiB Storage Included
-    highlight: false
-  - text: 'Team-based Access '
-    highlight: 'false'
-  - text: 10 Private Image Streams/Repositories
-    highlight: 'false'
-  - text: 1 Project/Workspace Limit
-    highlight: false
-  - text: Knowledge Base Support
-    highlight: false
-  call_to_action:
-    link: https://cochera.thedigitalgarage.io/free-signup
-    text: Sign Up for Free
-- name: Professional
-  color: "#4a4a4a"
-  features:
-  - text: Great for small dev teams and startups
-    highlight: 'false'
-  - text: Plans Start at $50.00/mo or $0.035/GiB Hour
-    highlight: 'true'
-  - text: 5GiB Memory Included
-    highlight: false
-  - text: 2GiB Storage Included
-    highlight: false
-  - text: Always On, Unlimited Usage
-    highlight: false
-  - text: Unlimited Private Image Streams/Repositories
-    highlight: 'false'
-  - text: Team-based Access
-    highlight: false
-  - text: Email & Knowledge Base Support
-    highlight: false
-  call_to_action:
-    link: http://mysite.com?plan=pro
-    text: Get started
-- name: Enterprise
-  color: "#000000"
-  features:
-  - text: Great for teams with several container based applications.
-    highlight: 'false'
-  - text: Volume Discounts for Usage-based Pricing
-    highlight: 'true'
-  - text: Unlimited Memory
-    highlight: false
-  - text: Unlimited Storage
-    highlight: false
-  - text: Unlimited Private Image Streams/Repositories
-    highlight: 'false'
-  - text: Usage-based Pricing
-    highlight: false
-  - text: Team-based Access
-    highlight: false
-  - text: Enterprise-level Support
-    highlight: false
-  call_to_action:
-    link: mailto:info@thedigitalgarage.io?subject=Enterprise Plan
-    text: Contact Us to Get Started
-faq:
-- question: Can I upgrade from the starter plan to the pro plan?
-  answer: Yes.
-- question: Can users run images from docker hub or push their own images to the registry?
-  answer: Yes, but with a few caveats. For security reasons, no images that run processes
-    as root are allowed. Additionally, any Dockerfile VOLUME instruction must be mounted
-    with either a persistent volume claim (PVC) or an EmptyDir at this time.
-- question: What databases are supported?
-  answer: The Digital Garage currently supports MariaDB (10.1), MongoDB (2.6, 3.2),
-    MySQL (5.6, 5.7), PostgreSQL (9.4, 9.5), and Redis (3.2).
-- question: Can I Run Production Applications on The Digital Garage?
-  answer: 'Yes. The Digital Garage does not limit your applications to development
-    workloads. Please read the Service Level Agreement carefully to determine if The
-    Digital Garage, Inc. Service Level Agreement is sufficient for your production
-    application. Please contact us for a Production Service Level Agreement if our
-    standard agreement does not fit your needs. '
-- question: What languages and datastores are supported?
-  answer: The Digital Garage currently supports Java (8), .NET Core (1.0, 1.1, 2.0),
-    Node.js (4, 6), Python (2.7, 3.4, 3.5), Ruby (2.2, 2.3, 2.4), and Perl (5.20,
-    5.24). Jenkins (2.x), Prometheus and Jeager are also available for CI/CD. Supported
-    Quickstart application templates are available for Apache HTTP Server, NGINX,
-    Django, Node.js, and Ruby on Rails.
-- question: Can I change my plan at a later time?
-  answer: Yes, you can upgrade and downgrade your plan at anytime.
-- question: Questions?
-  answer: Contact us for any further questions at <a href="#">john@business.com</a>.
 ---
 <section>
 	<div class="container text-center">
-		<div class="row">
+		<div class="row text-white">
 			<div class="col-12">
 				<h2 class="h1">
 					Pay Only For What You Need
@@ -138,9 +45,9 @@ faq:
             <li>1 Project/Workspace Limit</li>
             <li>Knowledgebase and Email Support</li>
 					</ul>
-					<hr class="m-0">
+					<hr class="mx-3">
           <div class="h-20">
-  					<h3 class="u-fs-60 text-green u-fw-600 u-my-20 h-20">FREE</h3>
+  					<h3 class="text-green u-fw-400 u-my-20">Free</h3>
   					<a href="" class="btn btn-outline-green">
   						Get Started
   					</a>
@@ -154,6 +61,7 @@ faq:
               <h4 class="u-mb-35 u-mt-15">
   						  Professional
   					  </h4>
+              <hr class="m-0">
             </div>
             <div class="px-3">
               <h6 class="u-mb-35 u-mt-15">
@@ -166,7 +74,6 @@ faq:
   					  </h6>
             </div>
           </div>
-					<hr class="m-0">
 					<ul class="list-unstyled h-50 px-3 u-py-30 u-lh-2">
             <li><strong>5 GB</strong> Memory</li>
 						<li><strong>3 Core</strong> Processor</li>
@@ -177,10 +84,10 @@ faq:
             <li>Team-based Access</li>
             <li>Knowledgebase and Email Support</li>
 					</ul>
-					<hr class="m-0">
+					<hr class="mx-3">
           <div class="h-20">
-  					<h2 class="u-fs-60 u-fw-600 u-my-20 h-20">
-  						Plans start at <sup class="u-fs-20">$</sup>50/mo
+  					<h2 class="text-green u-fw-400 u-my-20">
+  						Plans start at $50/mo
             </h2>
   					<a href="" class="btn btn-outline-green">
   						Get Started
@@ -212,12 +119,12 @@ faq:
             <li><strong>Unlimited</strong> Memory</li>
 						<li><strong>Unlimited</strong> Storage</li>
             <li><strong>Unlimited</strong> Private Images/Repositories</li>
-            <li>Volume Discounts for Usage-based Pricing starting at $.035/hr</li>
+            <li>Volume Discounts & Usage-based Pricing</li>
 						<li>Enterprise-level Support</li>
 					</ul>
 					<hr class="m-0">
           <div class="h-20">
-  					<h2 class="u-fs-60 u-fw-600 u-my-20 h-20">FREE</h2>
+  					<h2 class="text-green u-fw-400 u-my-20">Plans Start at $.035/hr</h2>
   					<a href="" class="btn btn-outline-green">
   						Get Started
   					</a>
