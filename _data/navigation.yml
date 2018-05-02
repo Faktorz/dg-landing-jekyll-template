@@ -1,6 +1,6 @@
 ---
 - name: Why The Digital Garage
-  link: "/"
+  link: "/why/"
   new_window: false
   highlight: false
 - name: How It Works
