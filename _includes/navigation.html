@@ -18,7 +18,7 @@
 	<div class="collapse navbar-collapse" id="navbarNav">
 		<ul class="navbar-nav ml-auto">
 			{% for link in site.data.navigation %}
-			<li class="nav-item">
+			<li class="nav-item text-blue-dark">
 				{% assign class = "nav-link" %}
 
 				{% if link.link == page.url %}
@@ -28,10 +28,10 @@
 			</li>
 			{% endfor %}
 			<li class="nav-item">
-            <a class="nav-link btn btn-sm btn-outline-white u-w-110" href="login.html">Login</a>
+            <a class="nav-link btn btn-sm btn-outline-orange u-w-110" href="login.html">Login</a>
       </li>
 			<li class="nav-item">
-            <a class="nav-link btn btn-sm btn-outline-white u-w-110" href="sign-up.html">Register</a>
+            <a class="nav-link btn btn-sm btn-outline-orange u-w-110" href="sign-up.html">Register</a>
       </li>
 		</ul>
 	</div>
