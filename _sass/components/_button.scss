@@ -62,6 +62,14 @@
 	}
 }
 
+.btn-outline-blue-dark{
+	background:transparent;
+	border-color:#a282e3;
+	&:hover {
+		background: #a282e3;
+		color: $white;
+	}
+}
 .btn-yellow {
   background: #ffad00;
   box-shadow: 0 5px 40px 0 rgba(#FFAD00, .30);
