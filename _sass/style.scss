@@ -1,33 +1,32 @@
-// Variable and settings 
+// Variable and settings
 @import "variables";
 
 // Mixins
-@import "mixins"; 
+@import "mixins";
 
 
-// Component 
+// Component
 @import "components/base";
 @import "components/global";
-@import "components/header"; 
-@import "components/intro";  
+@import "components/header";
+@import "components/intro";
 @import "components/footer";
-@import "components/button"; 
-@import "components/subsribe-form"; 
-@import "components/accordion"; 
-@import "components/tabs"; 
-@import "components/portfolio";   
-@import "components/post";   
-@import "components/progress-bar";    
- 
+@import "components/button";
+@import "components/subsribe-form";
+@import "components/accordion";
+@import "components/tabs";
+@import "components/portfolio";
+@import "components/post";
+@import "components/progress-bar";
 
-// Utilities or helper class 
-@import "utilities";  
 
- 
+// Utilities or helper class
+@import "utilities";
+
+
 
 
 // Vendor plugin modification
-@import "plugin/bootstrap"; 
-@import "plugin/slick";  
-
-
+@import "plugin/bootstrap";
+@import "plugin/slick";
+@import "plugin/aws";   
