@@ -691,6 +691,16 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
   color: #fff;
 }
 
+.btn-outline-blue-dark {
+  background: transparent;
+  border-color: #a282e3;
+}
+
+.btn-outline-blue-dark:hover {
+  background: #a282e3;
+  color: #fff;
+}
+
 .btn-yellow {
   background: #ffad00;
   box-shadow: 0 5px 40px 0 rgba(255, 173, 0, 0.3);
