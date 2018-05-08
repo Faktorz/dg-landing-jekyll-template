@@ -24,7 +24,7 @@ fields:
 - type: textarea
   label: Answer
   name: answer
-  description: Provide the answer from The Digital Garage
+  description: Provide the answer from Faktorz
   config:
     required: true
     wysiwyg: true

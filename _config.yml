@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: The Digital Garage Landing Page
+title: Faktorz Landing Page
 url: "https://www.thedigitalgarage.io"
 baseurl:
 google_analytics_key:
@@ -10,13 +10,13 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Primary Landing Page for The Digital Garage, Inc.
+description: Primary Landing Page for Faktorz, Inc.
 author:
   name:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: The Digital Garage
+  name: Faktorz
   links:
     - https://github.com/thedigitalgarage/dg-landing-jekyll-template
 
