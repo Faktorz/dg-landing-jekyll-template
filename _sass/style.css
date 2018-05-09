@@ -83,6 +83,13 @@ b, strong {
   color: #273f59;
 }
 
+hr {
+  display: block;
+  border-width: 3px;
+  border-color: #ff9900;
+  width: 10%;
+}
+
 sup {
   top: -1.3em;
 }

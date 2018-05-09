@@ -68,6 +68,12 @@ b, strong {
   font-weight: $strong-font-weight;
 	color: #273f59;
 }
+hr {
+	display: block;
+	border-width: 3px;
+	border-color: $orange;
+	width: 10%
+}
 sup {
     top: -1.3em;
 }
