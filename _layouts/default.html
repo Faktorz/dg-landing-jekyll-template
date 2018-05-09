@@ -70,7 +70,7 @@
 	 			</div>
 	 			<div class="col-lg-2 col-md-6 mb-5 ml-auto">
 	 				<h4 class="text-white">Useful Links</h4>
-	 				<hr></hr>
+	 				<hr style="width: 50px;"></hr>
 	 				<ul class="list-unstyled u-lh-2">
 	 					<li class="mb-3"><a href="">Why Faktorz</a></li>
 	 					<li class="mb-3"><a href="">How it Works</a></li>
@@ -80,7 +80,7 @@
 
 	 			<div class="col-lg-2 col-md-6 mb-5 ml-auto">
 	 				<h4 class="text-white">Useful Links</h4>
-	 				<hr></hr>
+	 				<hr style="width: 50px;"></hr>
 	 				<ul class="list-unstyled u-lh-2">
 	 					<li class="mb-3"><a href="">About Us </a> </li>
 	 					<li class="mb-3"><a href="">Testimonials </a> </li>
@@ -91,7 +91,7 @@
 
 	 			<div class="col-lg-3 col-md-6 mb-5 ml-auto">
 	 				<h4 class="text-white">Contact Info</h4>
-	 				<hr></hr>
+	 				<hr style="width: 50px;"></hr>
 	 				<ul class="list-unstyled">
 	 					<li class="mb-3">
 	 						<span class="icon icon-Mail text-green mr-2"></span> <a href="mailto:info@thedigitalgarage.io">info@thedigitalgarage.io</a>
@@ -132,7 +132,38 @@
 		  };
 		</script>
 		<script>
-			(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/u3yxu7e9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()
+			(function() {
+				var w = window;
+				var ic = w.Intercom;
+				if (typeof ic === "function") {
+					ic('reattach_activator');
+					ic('update', intercomSettings);
+				} else {
+					var d = document;
+					var i = function() {
+						i.c(arguments)
+					};
+					i.q = [];
+					i.c = function(args) {
+						i.q.push(args)
+					};
+					w.Intercom = i;
+
+					function l() {
+						var s = d.createElement('script');
+						s.type = 'text/javascript';
+						s.async = true;
+						s.src = 'https://widget.intercom.io/widget/u3yxu7e9';
+						var x = d.getElementsByTagName('script')[0];
+						x.parentNode.insertBefore(s, x);
+					}
+					if (w.attachEvent) {
+						w.attachEvent('onload', l);
+					} else {
+						w.addEventListener('load', l, false);
+					}
+				}
+			})()
 		</script>
 	</body>
 </html>
