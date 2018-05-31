@@ -1,8 +1,4 @@
 ---
-- name: Why Faktorz
-  link: "/why/"
-  new_window: false
-  highlight: false
 - name: How It Works
   link: "/how-works/"
   new_window: false
