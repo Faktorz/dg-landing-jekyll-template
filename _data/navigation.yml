@@ -12,10 +12,10 @@
   new_window: false
   highlight: false
 - name: Blog
-  link: https://medium.com/thedigitalgarage
+  link: https://medium.com/faktorz
   new_window: true
   highlight: false
-- name: Knowledgebase
-  link: http://docs.thedigitalgarage.io
+- name: Documentation
+  link: http://docs.faktorz.com
   new_window: true
   highlight: false
