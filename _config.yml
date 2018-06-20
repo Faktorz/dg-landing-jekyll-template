@@ -12,13 +12,13 @@ disqus_shortname:
 logo: assets/img/color_logo_transparent.svg
 description: FaktorZ
 author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+  name: John McCawley
+  email: john.mccawley@faktorz.com
+  twitter: DGsJohnM # twitter username without the @ symbol
 social:
   name: Faktorz
   links:
-    - https://github.com/thedigitalgarage/dg-landing-jekyll-template
+    - https://github.com/faktorz
 
 # -----
 # Build
