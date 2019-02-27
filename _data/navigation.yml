@@ -1,17 +1,9 @@
 ---
-- name: How It Works
-  link: "/how-works/"
-  new_window: false
-  highlight: false
-- name: Pricing
-  link: "/pricing/"
+- name: Our Services
+  link: "/our-services/"
   new_window: false
   highlight: false
 - name: Blog
   link: https://medium.com/faktorz
-  new_window: true
-  highlight: false
-- name: Documentation
-  link: http://docs.faktorz.com
   new_window: true
   highlight: false
