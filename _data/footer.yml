@@ -4,8 +4,6 @@
     link: "/"
     new_window: false
     social_icon: ''
-  - name: Pricing
-    link: "/pricing/"
   - name: Blog
     link: "/blog/"
   - name: About
